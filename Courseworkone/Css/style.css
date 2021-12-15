@@ -1,0 +1,98 @@
+#PageTitle{
+  text-align: center;
+  font-size: 90px;
+  text-decoration: underline;
+  color: yellow; /* Yellow was the colour of the text in the poster so I used it here too*/
+  font-family: Copperplate, fantasy; /* I chose this font as I felt it matched the poster font as well as I could with the limited options available*/
+}
+body{
+  background-color: darkblue; /* One of the other main colours in the poster was the dark blue of their outfits so I used it as the background */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+  text-align: center;
+}
+li {
+  color: Black;
+  text-align: center;
+  float: center;
+  display: inline-block;
+  font-size: 60px;
+  height: 75px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.active {
+    background-color: Darkblue;
+}
+#Poster{
+  height: 683px;
+  width: 461px;
+  float: left; /*I used the float element to keep the poster on the left*/
+  margin-right: 10px; /*The margin here was necessary to create structure at the centre of the page and avoid the text and image being directly next to each other*/
+  }
+#Synopsis{
+  color: White;
+  font-size: 25px;
+}
+#Trailer{
+  width: 970px; /*I set the width to a very precise amount in order for the bottom of the video to line up with the bottom of the poster*/
+}
+#Disclaimer{
+  color: White;
+  font-size: 12px;
+}
+#Footer{
+  background-color: grey;
+  text-align: center;
+  color: White;
+}
+#Link{
+  color: White;
+  text-decoration: none;
+}
+#Netflix{
+  text-decoration: underline; /*I put in the underline using text-decoration to make the hyperlink clearly visible, and applied no text decoration to the rest of the sentence to fully achieve the effct.*/
+  color: White;
+}
+h2{
+  color: Black;
+  text-decoration: underline;
+  font-size: 25px;
+}
+#Dever{
+  width: 281px;
+  height: 187.5px;
+  float: left;
+  margin-right: 10px;
+}
+#DeverBio{
+  color: Black;
+  font-size: 20px;
+}
+#Cast1{
+  background-color: Yellow;
+}
+#Beanie{
+  width: 281px; /*I copied the same CSS formatting from the first actor bio so the page could be consistent*/
+  height: 187.5px;
+  float: left;
+  margin-right: 10px;
+}
+#BeanieBio{
+  color: Black;
+  font-size: 20px;
+}
+#Cast2{
+  background-color: Yellow;
+}
+#AudioSupport{
+  color: white;
+  font-size: 30px;
+}
